@@ -1,7 +1,7 @@
 # ![](images/SCAE_50x50.png) SCAE
 Seguimiento de Contacto y Aforo en Establecimientos
 
-## Sobre el proyecto
+## Sobre el equipo
 Proyecto realizado para la materia de Ingeniera de Software para la maestría de Ciencias de la Computación en CINVESTAV Guadalajara.
 * Profesor: 
   * Dr. Mario Siller
@@ -16,6 +16,11 @@ Proyecto realizado para la materia de Ingeniera de Software para la maestría de
   * Juan Bernardo Camacho Tirado
   * Julia Alejandra Rodríguez Abud
   * Marisol Vera Arellano
+  
+  
+## Sobre el proyecto
+El proyecto consta de realizar un desarrollo de software que ayuda a registrar la afluencia en los establecimientos. Y sobre esta información recopilada ser capaces de hacer un seguimiento de contactos e informar de posibles contagios de COVID-19.
+
 
 ## Indice de contenidos
 1. [Documentación](http://github.com)
