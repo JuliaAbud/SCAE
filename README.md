@@ -15,9 +15,11 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
       1. Aviso de privacidad
    1. [SDD - Software Design Description](01_Documentacion/SDD%20-%20Software%20Design%20Description)
    1. [MTP - Master Testing Plan](01_Documentacion/MTP%20-%20Master%20Testing%20Plan)
-      1. Manual de usuario
-      1. LTP
-      1. LTD
+      1. [MTP](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/SCAE-MTP-2020-0005.pdf)
+      1. [LTP](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/SCAE-LTP-2020-0002.pdf)
+      1. [LTD](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/SCAE-LTD-2020-0002.pdf)
+      1. [Manual de usuario](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/Manual%20de%20usuario)
+      1. [Reportes de pruebas](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/Reportes%20de%20pruebas)
 1. [Código fuente](02_Codigo%20fuente)
       1. [App - SCAEI](02_Codigo%20fuente/App_SCAEI)
       1. [App - SCAEN](02_Codigo%20fuente/App_SCAEN)
