@@ -42,9 +42,9 @@ Proyecto realizado para la materia de Ingeniera de Software para la maestría de
   * Mtro. Luis Villela
   * Ing. Liliana Durán
 * Equipo de desarrollo:
-  * Abel David García Nevarez
-  * Carlos Cárdenas Ruiz
+  * Ing. Abel David García Nevarez
+  * Mtro. Carlos Cárdenas Ruiz
   * David Alejandro Mares Rodríguez
-  * Juan Bernardo Camacho Tirado
-  * Julia Alejandra Rodríguez Abud
-  * Marisol Vera Arellano
+  * Ing. Juan Bernardo Camacho Tirado
+  * Lic. Julia Alejandra Rodríguez Abud
+  * Ing. Marisol Vera Arellano
