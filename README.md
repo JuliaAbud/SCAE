@@ -8,7 +8,7 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
 ## Indice de contenidos
 1. [Documentación](01_Documentacion)
    1. [PMP - Project Management Plan](01_Documentacion/PMP%20-%20Project%20Management%20Plan)
-      1. PMP
+      1. [PMP](01_Documentacion/PMP%20-%20Project%20Management%20Plan/SCAE-PMP-2020-0005.pdf)
       1. [Minutas](01_Documentacion/PMP%20-%20Project%20Management%20Plan/Minutas)
       1. [Recibos](01_Documentacion/PMP%20-%20Project%20Management%20Plan/Recibos)
       1. [Contratos](01_Documentacion/PMP%20-%20Project%20Management%20Plan/Contratos)
@@ -17,6 +17,7 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
       1. [Politica de privacidad](01_Documentacion/SRS%20-%20Software%20Requirements%20Specification/Politica%20de%20privacidad.pdf)
    1. [SDD - Software Design Description](01_Documentacion/SDD%20-%20Software%20Design%20Description)
       1. [SDD](01_Documentacion/SDD%20-%20Software%20Design%20Description/SCAE-SDD-2020-0005.pdf)
+      1. [Funcionamiento API](01_Documentacion/SDD%20-%20Software%20Design%20Description/Funcionamiento%20API.pdf)
    1. [MTP - Master Testing Plan](01_Documentacion/MTP%20-%20Master%20Testing%20Plan)
       1. [MTP](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/SCAE-MTP-2020-0005.pdf)
       1. [LTP](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/SCAE-LTP-2020-0002.pdf)
