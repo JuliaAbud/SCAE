@@ -23,7 +23,7 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
 
 
 ## Indice de contenidos
-1. [Documentación](http://github.com)
+1. [Documentación](01_Documentacion)
    1. [PMP - Project Management Plan](http://github.com)
       1. Minutas
       1. Recibos
@@ -35,7 +35,7 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
       1. Manual de usuario
       1. LTP
       1. LTD
-1. [Código fuente](http://github.com)
-1. [Exportables](http://github.com)
-1. [Pruebas](http://github.com)
+1. [Código fuente](02_Codigo fuente)
+1. [Exportables](03_Exportables)
+1. [Pruebas](04_Pruebas)
 
