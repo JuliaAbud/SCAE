@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" maximum-scale=1 user-scalable=no>
+    <link rel="stylesheet" type="text/css" href="css/estilos_ev_local.css">
+
+
+    <title></title>
+</head>
+
+<body>
+    <div id="padre">
+        <nav>
+            <li><a href="http://evaluaciones.iafcj.org/web/index.php?r=users/logout">CERRAR SESIÓN</a></li>
+            <li class="active">12A. CULIACÁN</li>
+            </ul>
+        </nav>
+
+
+        <!---------------- FORMULARIO-------------->
+
+
+        <!---cabezal--->
+
+        <div id="cabezal">
+            <h1>12A. CULIACÁN</h1>
+        </div>
+
+        <div id="responsive-form" class="clearfix" style="text-align:center">
+
+            <div class="form-row">
+
+                <!---nombre--->
+                <div class="form-group field-iglesia-nombre">
+                    <label class="control-label" for="iglesia-nombre"> <h2 style="color:#2574a9;">Nombre de la Iglesia</h2></label>
+                    <input type="text" placeholder=" Ingrese nombre Iglesia" id="iglesia-nombre" class="form-control" name="Iglesia[nombre]" value="12A. CULIACÁN" maxlength="100" required>
+
+                    <div class="help-block"></div>
+                </div>
+                <!---pastor--->
+                <div class="column-full" style="color:#2574a9">
+                    <h2> Datos del pastor</h2>
+                </div>
+
+                <div class="column-half">
+                    <div class="form-group field-iglesia-pastor">
+                        <label class="control-label" for="iglesia-pastor">Pastor</label>
+                        <input placeholder="Ingrese nombre del Pastor" type="text" id="iglesia-pastor" class="form-control" name="Iglesia[pastor]" value="ABIEL ÁNGEL BUENO MORENO" maxlength="100" required>
+
+                        <div class="help-block"></div>
+                    </div>
+                </div>
+
+                <div class="column-half">
+                    <div class="form-group field-iglesia-fecha_nacimiento">
+                        <label class="control-label" for="iglesia-fecha_nacimiento">Fecha de Nacimiento</label>
+                        <input placeholder="Ingrese fecha de nacimiento" type="text" id="iglesia-fecha_nacimiento" class="form-control hasDatepicker" name="Iglesia[fecha_nacimiento]" required>
+
+                        <div class="help-block"></div>
+                    </div>
+                </div>
+
+                <div class="column-half">
+                    <div class="form-group field-iglesia-estado_civil">
+                        <label class="control-label" for="iglesia-estado_civil">Estado Civil</label>
+                        <select id="iglesia-estado_civil" class="form-control" name="Iglesia[estado_civil]" required>
+                            <option  id="fholder" disabled selected>Seleccione una opción</option>
+                            <option value="CASADO">CASADO</option>
+                            <option value="SOLTERO">SOLTERO</option>
+                            <option value="VIUDO">VIUDO</option>
+                            <option value="DIVORCIADO">DIVORCIADO</option>
+                            <option value="SEPARADO">SEPARADO</option>
+                        </select>
+
+                        <div class="help-block"></div>
+                    </div>
+                </div>
+
+                <div class="form-group field-iglesia-calle_pastor">
+                    <label class="control-label" for="iglesia-calle_pastor">Direccion del pastor</label>
+                    <input placeholder="Ingrese Dirección del Pastor" type="text" id="iglesia-calle_pastor" class="form-control" name="Iglesia[calle_pastor]" value="">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+            <!---iglesia--->
+
+            <div class="column-full" style="color:#2574a9;">
+                <h2>Datos de la Iglesia</h2>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-idpresbiterio">
+                    <label class="control-label" for="iglesia-idpresbiterio">Presbiterio</label>
+                    <select id="iglesia-idpresbiterio" class="form-control" name="Iglesia[idpresbiterio]" required>
+                            <option disabled selected>Seleccione una opción</option>
+                            <option value="1">1A. COSTA RICA</option>
+                            <option value="2">1A. CULIACÁN</option>
+                            <option value="3">1A. ESCUINAPA</option>
+                            <option value="4">1A. MAZATLÁN</option>
+                            <option value="5">1A. NAVOLATO</option>
+                            <option value="6">1A. VILLA JUÁREZ</option>
+                            <option value="7">2A. MAZATLÁN</option>
+                            <option value="8">3A. COSTA RICA</option>
+                            <option value="9">3A. MAZATLÁN</option>
+                            <option value="10">3A. CULIACÁN</option>
+                            <option value="11">5A. CULIACÁN</option>
+                            <option value="12">6A. CULIACÁN</option>
+                            <option value="13">6A. MAZATLÁN</option>
+                            <option value="14">10A.  CULIACÁN</option>
+                            <option value="15">11A. CULIACÁN</option>
+                            <option value="16">14A. CULIACÁN</option>
+                            <option value="17">16A. CULIACÁN</option>
+                            <option value="18">19A. CULIACÁN</option>
+                            <option value="19">21A. CULIACÁN</option>
+                            <option value="20" selected="">23A. CULIACÁN</option>
+                            <option value="21">27A. CULIACÁN</option>
+                            <option value="22">BADIRAGUATO</option>
+                            <option value="23">CEBADILLA</option>
+                            <option value="24">EL DORADO</option>
+                            <option value="25">EL DURAZNO</option>
+                            <option value="26">JACOLA</option>
+                            <option value="27">LA CRUZ DE ELOTA</option>
+                            <option value="28">LA TUNA</option>
+                            <option value="29">TAMAZULA</option>
+                            <option value="30">VILLA ÁNGEL FLORES</option>
+                            <option value="31">1A. TIJUANA</option>
+                            <option value="32">7A. TIJUANA</option>
+                            <option value="33">9A. TIJUANA</option>
+                            <option value="34">10A. TIJUANA</option>
+                            <option value="35">11A. TIJUANA</option>
+                            <option value="36">12A. TIJUANA</option>
+                            <option value="37">13A. TIJUANA</option>
+                            <option value="38">15A. TIJUANA</option>
+                            <option value="39">19A. TIJUANA</option>
+                            <option value="40">20A. TIJUANA</option>
+                            <option value="41">21A. TIJUANA</option>
+                            <option value="42">23A. TIJUANA</option>
+                            <option value="43">25A. TIJUANA</option>
+                            <option value="44">27A. TIJUANA</option>
+                            <option value="45">29A. TIJUANA</option>
+                            <option value="46">30A. TIJUANA</option>
+                            <option value="47">39A. TIJUANA</option>
+                            <option value="48">41A. TIJUANA</option>
+                            <option value="49">63A. TIJUANA</option>
+                            <option value="50">1A. TECATE</option>
+                            <option value="51">2A. TECATE</option>
+                            <option value="52">1A. ROSARITO</option>
+                            <option value="53">8A. ZAPOPAN</option>
+                            <option value="54">1A. ZAPOPAN</option>
+                            <option value="55">2A. ZAPOPAN</option>
+                            <option value="56">5A. ZAPOPAN</option>
+                            <option value="57">1A. TLAQUEPAQUE</option>
+                            <option value="58">2A. TLAQUEPAQUE</option>
+                            <option value="59">TONALÁ</option>
+                            <option value="60">3A. TECOMAN</option>
+                            <option value="61">TIZAPÁN</option>
+                            <option value="62">2A. COLIMA</option>
+                            <option value="63">1A. CIUDAD GUZMÁN</option>
+                            <option value="64">2A. TECOMÁN</option>
+                            <option value="65">4A. ZAPOPAN</option>
+                            <option value="66">4A. MONTERREY</option>
+                            <option value="67">1A. GUADALUPE</option>
+                            <option value="68">7A. MONTERREY</option>
+                            <option value="69">1A. SAN PEDRO</option>
+                            <option value="70">1A. SANTA CATARINA</option>
+                            <option value="71">1A. NUEVO LAREDO</option>
+                            <option value="72">2A. NUEVO LAREDO</option>
+                            <option value="73">4A. GUADALUPE</option>
+                            <option value="74">2A. SANTA CATARINA</option>
+                            <option value="75">2A. MONTERREY</option>
+                            <option value="76">7A. ZAPOPAN</option>
+                            </select>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <label class="control-label" for="distrito">Distrito al que pertenece</label>
+                <input id="pertenece" type="text" readonly="true" class="form-control" value="PACÍFICO">
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-calle_templo">
+                    <label class="control-label" for="iglesia-calle_templo">Calle del templo</label>
+                    <input placeholder="Ingrese Calle del Templo" type="text" id="iglesia-calle_templo" class="form-control" name="Iglesia[calle_templo]" value="SEGUNDA" maxlength="300" required>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-numero_templo">
+                    <label class="control-label" for="iglesia-numero_templo">Número del templo</label>
+                    <input placeholder="Ingrese número del templo" type="text" id="iglesia-numero_templo" class="form-control" name="Iglesia[numero_templo]" value="" maxlength="300" required>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-col_templo">
+                    <label class="control-label" for="iglesia-col_templo">Colonia del templo</label>
+                    <input placeholder="Ingrese colonia" type="text" id="iglesia-col_templo" class="form-control" name="Iglesia[col_templo]" value="LOMAS DE RODRÍGUERA" maxlength="300" required>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-cp_templo">
+                    <label class="control-label" for="iglesia-cp_templo">CP Templo</label>
+                    <input placeholder="Ingrese CP" type="text" id="iglesia-cp_templo" class="form-control" name="Iglesia[cp_templo]" value="80350" maxlength="300">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-municipio_templo">
+                    <label class="control-label" for="iglesia-municipio_templo">Municipio del templo</label>
+                    <input placeholder="Ingrese municipio" type="text" id="iglesia-municipio_templo" class="form-control" name="Iglesia[municipio_templo]" value="CULIACÁN" maxlength="300" required>
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-estado_templo">
+                    <label class="control-label" for="iglesia-estado_templo">Estado del templo</label>
+                    <input placeholder="Ingrese Estado" type="text" id="iglesia-estado_templo" class="form-control" name="Iglesia[estado_templo]" value="SINALOA" maxlength="300" required>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-tel_pastor">
+                    <label class="control-label" for="iglesia-tel_pastor">Teléfono</label>
+                    <input placeholder="Ingrese teléfono" type="text" id="iglesia-tel_pastor" class="form-control" name="Iglesia[tel_pastor]" value="667 215 2381" maxlength="300" required>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-correo_pastor">
+                    <label class="control-label" for="iglesia-correo_pastor">Correo electrónico</label>
+                    <input placeholder="Ingrese correo" type="text" id="iglesia-correo_pastor" class="form-control" name="Iglesia[correo_pastor]" value="PASTOR .ABIEL@HOTMAIL.COM" maxlength="300" required>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-pagina_web">
+                    <label class="control-label" for="iglesia-pagina_web">Página Web</label>
+                    <input placeholder="Ingrese página web" type="text" id="iglesia-pagina_web" class="form-control" name="Iglesia[pagina_web]" value="">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <!---casa pastoral--->
+
+            <div class="column-full" style="color:#2574a9;">
+                <h2>Domicilio de la casa pastoral</h2>
+            </div>
+            <div class="column-half">
+                <div class="form-group field-iglesia-calle_pastoral">
+                    <label class="control-label" for="iglesia-calle_pastoral">Calle casa pastoral</label>
+                    <input placeholder="Ingrese calle" type="text" id="iglesia-calle_pastoral" class="form-control" name="Iglesia[calle_pastoral]" value="" maxlength="300">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-numero_pastoral">
+                    <label class="control-label" for="iglesia-numero_pastoral">Número casa pastoral</label>
+                    <input placeholder=" Ingrese número de casa" type="text" id="iglesia-numero_pastoral" class="form-control" name="Iglesia[numero_pastoral]" value="" maxlength="300">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+
+                <div class="form-group field-iglesia-col_pastoral">
+                    <label class="control-label" for="iglesia-col_pastoral">Colonia  casa pastoral</label>
+                    <input placeholder="Ingrese colonia" type="text" id="iglesia-col_pastoral" class="form-control" name="Iglesia[col_pastoral]" value="" maxlength="300">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-cp_pastoral">
+                    <label class="control-label" for="iglesia-cp_pastoral">CP Pastoral</label>
+                    <input placeholder="Ingrese CP" type="text" id="iglesia-cp_pastoral" class="form-control" name="Iglesia[cp_pastoral]" value="" maxlength="300">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+
+                <div class="form-group field-iglesia-municipio_pastoral">
+                    <label class="control-label" for="iglesia-municipio_pastoral">Municipio pastoral</label>
+                    <input placeholder="Ingrese municipio" type="text" id="iglesia-municipio_pastoral" class="form-control" name="Iglesia[municipio_pastoral]" value="" maxlength="300">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-half">
+                <div class="form-group field-iglesia-estado_pastoral">
+                    <label class="control-label" for="iglesia-estado_pastoral">Estado pastoral</label>
+                    <input placeholder="Ingrese estado" type="text" id="iglesia-estado_pastoral" class="form-control" name="Iglesia[estado_pastoral]" value="" maxlength="300">
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+
+            <div class="column-full">
+                <div class="form-group field-iglesia-domicilio_correspondencia">
+                    <label class="control-label" for="iglesia-domicilio_correspondencia">Domicilio para envio de correspondencia</label>
+                    <input placeholder="Ingrese domicilio para envio de correspondencia" type="text" id="iglesia-domicilio_correspondencia" class="form-control" name="Iglesia[domicilio_correspondencia]" value="" required>
+
+                    <div class="help-block"></div>
+                </div>
+            </div>
+
+            <div class="column-full">
+
+                <button type="submit" class="boton" id="act">Actualizar datos</button>
+                <a class="boton" href="http://evaluaciones.iafcj.org/web/index.php?r=respuestasiglesia%2Frespuestas&amp;id=187&amp;idrubro=0">Confirmar Datos</a>
+
+
+                <div class="help-block"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

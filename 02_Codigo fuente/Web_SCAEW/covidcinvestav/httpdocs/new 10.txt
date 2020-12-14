@@ -1,0 +1,2 @@
+Gravedad	Código	Descripción	Proyecto	Archivo	Línea	Estado suprimido
+Advertencia		No se pudo encontrar el componente 'Axzkemkeeper' al que se hace referencia.	plcdemo			

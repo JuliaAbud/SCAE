@@ -1,0 +1,191 @@
+/* -----------------------------------------
+FUENTE
+*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+/*--------------------------------------------
+ESTILIZAR
+*/  
+
+*{
+    margin: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+    background-color: #ebedef;
+    font-family: Poppins-Regular, sans-serif;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+/*------------------------------------------
+CONTENEDOR PRINCIPAL
+*/
+
+#padre{
+    position: absolute;
+    width: 75%;
+    background: #ffff;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    border-radius: 10px;
+} 
+
+/*-----------------------------------------------
+FORMULARIO */
+
+nav{
+    display: flex;
+    background: #2574a9; /*AZUL*/
+    justify-content:flex-start;
+    text-decoration-color: #ffff;
+    padding: 14px;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
+nav a{
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    background: #ccddff;
+    color: black;
+}
+
+.active{
+    padding-left: 10px;
+    color: #ccddff;
+    font-size: 10px;
+}
+
+/*----boton inferior*/
+.boton {
+    background-color: #2574a9; /* Azul */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 32px;
+    margin-bottom: 10px;
+}
+
+.boton:hover{
+    background: #ccddff;
+    color: black;
+    cursor:pointer;
+}
+
+/*-------------------------------------------------
+FORMULARIO */
+
+#cabezal{
+	background-color:#5D6D7E;
+    padding:20px;
+    text-align:center;
+    color:#2574a9;
+    margin-bottom: 15px;
+} 
+
+#cabezal h1{
+    color:#ffff;
+    
+}
+
+.form-group field-iglesia-nombre {
+    padding-top: 10px;
+}
+    
+
+/*-------------------------------------------------
+IMPUT */
+
+
+ input, select, textarea {
+    width: 100%;
+    margin: 4px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    background-color: #f1f1f1;
+   
+    
+}
+
+#pertenece {
+    background-color:#5D6D7E;
+    color: #ffff;
+    font-weight: bold;
+   }
+        
+/**----------------------dividir en columnas formulario-----------**/    
+    
+ #responsive-form{
+	max-width:1024px /*-- change this to get your desired form width --*/;
+	margin:0 auto;
+    width:100%;
+}
+.form-row{
+	width: 100%;
+}
+
+.column-half, .column-full{
+	float: left;
+	position: relative;
+	padding: 7px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.control-label{
+    color: #5D6D7E;
+    font-weight: bold;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+    
+/**---------------- Media query ----------------**/
+@media only screen and (min-width: 48em) { 
+	.column-half{
+		width: 33%;
+}
+
+    
+    
