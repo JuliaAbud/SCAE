@@ -2,7 +2,7 @@
 Seguimiento de Contacto y Aforo en Establecimientos
 
 ## Sobre el equipo
-Proyecto realizado para la materia de Ingeniera de Software para la maestría de Ciencias de la Computación en CINVESTAV Guadalajara.
+Proyecto realizado para la materia de Ingeniera de Software para la maestría de Ciencias de la Computación en CINVESTAV Guadalajara. Entrega Diciembre 2020.
 * Profesor: 
   * Dr. Mario Siller
 * Stakeholders:
