@@ -1,0 +1,47 @@
+
+
+
+
+.form-content {
+    background-color: white;
+    margin-top: 40;
+    margin-left: 42;
+    margin-right: 42;
+    margin-bottom: 30;
+
+}
+
+
+/* 
+.fields-section {
+    margin-left: 16;
+    margin-right: 16;
+} */
+
+.field-title {
+  
+  font-size: 12;
+  color: #1e2d7e;
+  margin-top: 6;
+}
+
+
+.field {
+  font-size: 14;
+  
+}
+
+
+
+
+.update {
+    
+    text-align: center;
+    color: white;
+    font-size: 16;
+    text-transform: uppercase;
+}
+.picker {
+ font-size:14;
+ 
+}
