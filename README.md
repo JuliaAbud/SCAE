@@ -16,7 +16,7 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
       1. [SRS](01_Documentacion/SRS%20-%20Software%20Requirements%20Specification/SCAE-SRS-2020-0005.pdf)
       1. [Politica de privacidad](01_Documentacion/SRS%20-%20Software%20Requirements%20Specification/Politica%20de%20privacidad.pdf)
    1. [SDD - Software Design Description](01_Documentacion/SDD%20-%20Software%20Design%20Description)
-      1. SDD
+      1. [SDD](01_Documentacion/SDD%20-%20Software%20Design%20Description/SCAE-SDD-2020-0005.pdf)
    1. [MTP - Master Testing Plan](01_Documentacion/MTP%20-%20Master%20Testing%20Plan)
       1. [MTP](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/SCAE-MTP-2020-0005.pdf)
       1. [LTP](01_Documentacion/MTP%20-%20Master%20Testing%20Plan/SCAE-LTP-2020-0002.pdf)
@@ -29,6 +29,8 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
       1. [Web - SCAEW](02_Codigo%20fuente/Web_SCAEW)
       1. [Servidor - Base de Datos](02_Codigo%20fuente/Servidor_BD)
 1. [Exportables](03_Exportables)
+      1. [App SCAEI.apk](03_Exportables/SCAEI.apk)
+      1. [App SCAEN.apk](03_Exportables/SCAEN.apk)
 1. [Pruebas](04_Pruebas)
 
 ## Sobre el equipo
