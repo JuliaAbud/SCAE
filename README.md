@@ -30,6 +30,7 @@ El proyecto consta de realizar un desarrollo de software que ayuda a registrar l
       1. [Web - SCAEW](02_Codigo%20fuente/Web_SCAEW)
       1. [Servidor - Base de Datos](02_Codigo%20fuente/Servidor_BD)
 1. [Exportables](03_Exportables)
+      1. [Página web](https://www.covidcinvestav.com/)
       1. [App SCAEI.apk](03_Exportables/SCAEI.apk)
       1. [App SCAEN.apk](03_Exportables/SCAEN.apk)
 1. [Pruebas](04_Pruebas)
