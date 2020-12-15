@@ -3,6 +3,7 @@ Seguimiento de Contacto y Aforo en Establecimientos
   
 ## Sobre el proyecto
 El proyecto consta de realizar un desarrollo de software que ayuda a registrar la afluencia en los establecimientos. Y sobre esta información recopilada ser capaces de hacer un seguimiento de contactos e informar de posibles contagios de COVID-19.
+[Página web](https://www.covidcinvestav.com/)
 
 
 ## Indice de contenidos
