@@ -21,7 +21,8 @@
         "2amigos/qrcode-library": "~1.1",
         "phpmailer/phpmailer": "^6.2",
         "2amigos/yii2-file-upload-widget": "~1.0",
-        "miloschuman/yii2-highcharts-widget": "^8.0"
+        "miloschuman/yii2-highcharts-widget": "^8.0",
+        "kartik-v/yii2-widget-select2": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

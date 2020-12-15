@@ -45,24 +45,7 @@ class RubroController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
-	public function actionLista($q = null, $id = null) {
-		 Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
-		 $out = ['results' => ['id' => '', 'text' => '']];
-		 $query=null;
-		 if (!is_null($q)) {
-			 $query = new Query;
-			 $query->select('idrubro as id, nombre AS text')
-				 ->from('rubro')
-				 ->where('nombre like "%'.$q.'%"')
-				 ->orderBy ("nombre") 
-				 //->orderBy ([ new Expression ( "FIELD (concepto, '".$q."') " )]) 
-				 ->limit(50);
-			 $command = $query->createCommand();
-			 $data = $command->queryAll();
-			 $out['results'] = array_values($data);
-		 }
-		 return $out;
-	 }
+
     /**
      * Displays a single Rubro model.
      * @param integer $id
@@ -114,13 +97,25 @@ class RubroController extends Controller
         ]);
     }
 
-    /**
-     * Deletes an existing Rubro model.
-     * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param integer $id
-     * @return mixed
-     * @throws NotFoundHttpException if the model cannot be found
-     */
+    public function actionLista($q = null, $id = null) {
+		 Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+		 $out = ['results' => ['id' => '', 'text' => '']];
+		 $query=null;
+		 if (!is_null($q)) {
+			 $query = new Query;
+			 $query->select('idrubro as id, nombre AS text')
+				 ->from('rubro')
+				 ->where('nombre like "%'.$q.'%"')
+				 ->orderBy ("nombre") 
+				 //->orderBy ([ new Expression ( "FIELD (concepto, '".$q."') " )]) 
+				 ->limit(50);
+			 $command = $query->createCommand();
+			 $data = $command->queryAll();
+			 $out['results'] = array_values($data);
+		 }
+		 return $out;
+	 }
+	 
     public function actionDelete($id)
     {
         $this->findModel($id)->delete();
