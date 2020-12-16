@@ -104,7 +104,7 @@ class NegocioController extends Controller
     public function actionCreate()
     {
         $model = new Negocio();
-		
+		$model->idusers=Yii::$app->user->identity->id;
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
 			$model->codigo= Yii::$app->getSecurity()->generatePasswordHash($model->fechacreacion.$model->idnegocio);
 			$model->save();

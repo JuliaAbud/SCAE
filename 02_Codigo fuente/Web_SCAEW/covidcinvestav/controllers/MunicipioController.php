@@ -52,10 +52,10 @@ class MunicipioController extends Controller
 		 $query=null;
 		 if (!is_null($q)) {
 			 $query = new Query;
-			 $query->select('idmunicipio as id, nombre AS text')
-				 ->from('municipio')
-				 ->where('nombre like "%'.$q.'%"')
-				 ->orderBy ("nombre") 
+			 $query->select('id as id, text AS text')
+				 ->from('nombresmunicipios')
+				 ->where('text like "%'.$q.'%"')
+				 ->orderBy ("text") 
 				 //->orderBy ([ new Expression ( "FIELD (concepto, '".$q."') " )]) 
 				 ->limit(50);
 			 $command = $query->createCommand();

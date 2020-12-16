@@ -35,6 +35,11 @@ class ComposerStaticInitcec21945c4433f9d69196f74a1767bd9
         array (
             'miloschuman\\highcharts\\' => 23,
         ),
+        'k' => 
+        array (
+            'kartik\\select2\\' => 15,
+            'kartik\\base\\' => 12,
+        ),
         'd' => 
         array (
             'dosamigos\\gallery\\' => 18,
@@ -128,6 +133,14 @@ class ComposerStaticInitcec21945c4433f9d69196f74a1767bd9
         'miloschuman\\highcharts\\' => 
         array (
             0 => __DIR__ . '/..' . '/miloschuman/yii2-highcharts-widget/src',
+        ),
+        'kartik\\select2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-select2/src',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base/src',
         ),
         'dosamigos\\gallery\\' => 
         array (
